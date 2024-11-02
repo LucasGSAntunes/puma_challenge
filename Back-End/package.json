@@ -1,0 +1,22 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": " npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasGSAntunes/puma_challenge.git"
+  },
+  "author": "Lucas Antunes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucasGSAntunes/puma_challenge/issues"
+  },
+  "homepage": "https://github.com/LucasGSAntunes/puma_challenge#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
