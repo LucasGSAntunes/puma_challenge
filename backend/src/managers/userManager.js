@@ -1,14 +1,17 @@
 const axios = require("../config/axiosConfig");
-const app = require("../app");
-let db = app.locals.db;
 const conn = require("../db/conn");
+let db = conn();
 
 const userManager = {
   getUserGithub: async (username) => {
-    if (!username) {
+    if (!username || username === "") {
       throw new Error("Username is required");
     }
+    
     const response = await axios.get(username);
+    if (response.status === 403) {
+      throw new Error("Failed to get user");
+    }
     const user = response.data;
 
     const newUser = {
@@ -64,6 +67,10 @@ const userManager = {
   },
 
   deleteFavoriteUser: async (username) => {
+    if (!username || username === "") {
+      throw new Error("Username is required");
+    }
+
     const lowercaseUsername = username.toLowerCase();
     const userIndex = Object.values(db).findIndex(
       (u) => u.user.username === lowercaseUsername
@@ -104,7 +111,7 @@ const userManager = {
   },
 
   resetUsers: () => {
-    db = conn();
+    db = {};
   },
 };
 

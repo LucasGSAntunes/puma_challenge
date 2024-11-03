@@ -1,7 +1,7 @@
-const userServices = require("../../services/userService");
-const userManager = require("../../managers/userManager");
+const userServices = require("../../../services/userService");
+const userManager = require("../../../managers/userManager");
 
-jest.mock("../../managers/userManager");
+jest.mock("../../../managers/userManager");
 
 describe("userServices", () => {
   afterEach(() => {
