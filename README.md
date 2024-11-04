@@ -6,15 +6,16 @@
 
 Instruções de inicialização do projeto
 
-1. Clone o repositório Git da branch `dev`: `git@github.com:LucasGSAntunes/puma_challenge.git`;
-2. Entre na pasta ./backend;
-3. Instale as dependências com o comando: `npm install`
-4. Inicie o servidor com o comando: `npm run dev`
-5. O servidor deve estar rodando na *porta* `3001`
-6. Entre na pasta ./frontend;
-7. Instale as dependências com o comando: `npm install`
-8. Inicie o servidor com o comando: `npm run dev`
-9. O frontend da aplicação deve estar rodando na *porta* `9000` por padrão
+1. Clone o repositório Git: `git@github.com:LucasGSAntunes/puma_challenge.git`;
+2. Navegue até a branch `dev`: `git checkout dev`
+3. Entre na pasta ./backend;
+4. Instale as dependências com o comando: `npm install`
+5. Inicie o servidor com o comando: `npm run dev`
+6. O servidor deve estar rodando na *porta* `3001`
+7. Entre na pasta ./frontend;
+8. Instale as dependências com o comando: `npm install`
+9. Inicie o servidor com o comando: `npm run dev`
+10. O frontend da aplicação deve estar rodando na *porta* `9000` por padrão
 
 ## User Inteface
 Rota da interface: `http://localhost:9000/#/users`
