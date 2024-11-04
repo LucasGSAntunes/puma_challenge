@@ -6,7 +6,7 @@
 
 Instruções de inicialização do projeto
 
-1. Clone o repositório Git;
+1. Clone o repositório Git da branch `dev`: `git@github.com:LucasGSAntunes/puma_challenge.git`;
 2. Entre na pasta ./backend;
 3. Instale as dependências com o comando: `npm install`
 4. Inicie o servidor com o comando: `npm run dev`
