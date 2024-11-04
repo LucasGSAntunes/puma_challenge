@@ -1,0 +1,26 @@
+// app global css in SCSS form
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+// app global css in SCSS form
+html, body {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+*{
+    font-family: "Montserrat", system-ui;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.bg-primary-1 {
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.mid-opacity{
+    opacity: 0.7;
+}
