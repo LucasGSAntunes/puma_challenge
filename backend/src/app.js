@@ -6,7 +6,11 @@ const app = express()
 const db = conn()
 
 app.set('db', db)
-app.use(cors())
+app.use(cors(
+    {
+        origin: 'http://localhost:9000',
+    }
+))
 app.use(express.json())
 app.use((router))
 

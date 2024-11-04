@@ -7,6 +7,12 @@ const userController = {
             const user = await userService.addFavoriteUser(username);
             return res.status(201).json(user);
         } catch (error) {
+            console.log(error);
+            if (error.message === 'User already exists') {
+                return res.status(409).json({ message: 'Usuário já existe' });
+            } else if (error.message === 'User not found') {
+                return res.status(404).json({ message: 'Usuário não encontrado' });
+            }
             return res.status(400).json({ success: false, message: error.message });
         }
     },
