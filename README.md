@@ -125,15 +125,15 @@ success: false, message: error.message
 
 ## DOD - Definition of done:
 ### API
-- [ x ] O utilizador poderá adicionar o máximo de 5 usuários favoritos;
-- [ x ] O utilizador não poderá adicionar um usuário que já foi adicionado na lista;
-- [ x ] Somente 1 usuário pode ser marcado com uma estrela. Se o utilizador tentar marcar um segundo usuário com uma estrela, o usuário anteriormente marcado deixará de ter a estrela;
-- [ x ] O utilizador poderá ordenar a lista de usuários em ordem alfabética de nome.
-- [ x ] Utilizar testes unitários no backend;
+- [x] O utilizador poderá adicionar o máximo de 5 usuários favoritos;
+- [x] O utilizador não poderá adicionar um usuário que já foi adicionado na lista;
+- [x] Somente 1 usuário pode ser marcado com uma estrela. Se o utilizador tentar marcar um segundo usuário com uma estrela, o usuário anteriormente marcado deixará de ter a estrela;
+- [x] O utilizador poderá ordenar a lista de usuários em ordem alfabética de nome.
+- [x] Utilizar testes unitários no backend;
 ### Frontend
-- [ x ] Caso o usuário tente inserir um username que não existe no GitHub, uma mensagem de erro deve ser exibida;
-- [ x ] Exibir mensagem de erro caso o usuário tente adicionar um novo username quando o limite de favoritos tiver sido alcançado;
+- [x] Caso o usuário tente inserir um username que não existe no GitHub, uma mensagem de erro deve ser exibida;
+- [x] Exibir mensagem de erro caso o usuário tente adicionar um novo username quando o limite de favoritos tiver sido alcançado;
 
 ### Não funcionais
-- [ x ] Não é necessário salvar a lista de favoritos em banco dados, podendo ficar somente em memória;
-- [ x ] Utilizar os princípios de programação orientada a objetos, design patterns e arquitetura limpa quando apropriado.
+- [x] Não é necessário salvar a lista de favoritos em banco dados, podendo ficar somente em memória;
+- [x] Utilizar os princípios de programação orientada a objetos, design patterns e arquitetura limpa quando apropriado.
